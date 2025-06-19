@@ -33,25 +33,25 @@ var data = [
   {
     title: "Gadgets",
     images: {
-      image1: "url",
-      image2: "url",
-      image3: "url",
-      image4: "url",
+      image1: "https://imgs.search.brave.com/luiEJ7cKCnVJUKbYmvf37aoE0sk91QaNyMGiXLMUdag/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW50ZXJlc3Rp/bmdlbmdpbmVlcmlu/Zy5jb20vaW1nL2ll/YS9NUnc0eVBQRE8x/L2NlbGxwaG9uZWhv/bGRlcmllLmpwZw",
+      image2: "https://imgs.search.brave.com/luiEJ7cKCnVJUKbYmvf37aoE0sk91QaNyMGiXLMUdag/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW50ZXJlc3Rp/bmdlbmdpbmVlcmlu/Zy5jb20vaW1nL2ll/YS9NUnc0eVBQRE8x/L2NlbGxwaG9uZWhv/bGRlcmllLmpwZw",
+      image3: "https://imgs.search.brave.com/Q3zzG2VJkBdQ6N4BnbPlDzVPTWu8J2aBsUBxSWdD7Bs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFEd1Rua205cFMu/anBn",
+      image4: "https://imgs.search.brave.com/PX5-TDdKOFTpDzmZk28RNKaBdbGFGVMEnOEegOmAmxc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW50ZXJlc3Rp/bmdlbmdpbmVlcmlu/Zy5jb20vaW1nL2ll/YS9NUnc0eVBQRE8x/L2dlYXJiZWFzdC1j/ZWxscGhvbmUtbGFu/eWFyZC5qcGc",
     },
     tags: {
-      tag1: "car-1",
-      tag2: "car-2",
-      tag3: "tag-3",
-      tag4: "tag-4"
+      tag1: "gadget-1",
+      tag2: "gadget-2",
+      tag3: "gadget-3",
+      tag4: "gadget-4"
     }
   },
     {
     title: "Mobiles",
     images: {
-      image1: "https://imgs.search.brave.com/kL8wP4eN9mX2jF7fR5uA3qG6hT1cZ0yI9bN4oE5dU8V/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTEy/MzQ1Njc4OS9waG90/by9pcGhvbmUtMTQt/cHJvLW1heC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9czRP/ZVBhRjlQa0RqU0xO/YkxXZkp3cXhsNFFM/Rko3aDN6S3JnTzVk/bnFzPQ",
-      image2: "https://imgs.search.brave.com/nX8vP1wR9mK4bL2aE5uT6fG7hS3cQ0jI8yA9zN4eO5V/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIz/NDU2Nzg5MC9waG90/by9zYW1zdW5nLWdh/bGF4eS1zMjMtdWx0/cmEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXM0T2VQYUY5/UGtEalNMTmJMV2ZK/d3F4bDRRTEZKN2gz/ektcZ081ZG5xcz0",
-      image3: "https://imgs.search.brave.com/lK7dR2pW8hF9nM1xE4vT5gP6qS0cZ3jY9bN8oA4eU1I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE4/NTQ5MjU5Ni9waG90/by9nbG9vZ2xlLXBp/eGVsLTctcHJvLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1G/a1JnRmt0SlhYQktZ/dEJUZXNmbUpxQUVs/cG9xRjdSV2RKM0Z5/MEdoeG5rPQ",
-      image4: "https://imgs.search.brave.com/vB9nK4eM7wX2jP8fR5uA3qG6hL1cT0yI9bN4oE5dU8V/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIz/NDU2Nzg5MC9waG90/by9vbmVwbHVzLTEx/LXByby5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9czRPZVBh/RjlQa0RqU0xOYkxX/Zkp3cXhsNFFMRko3/aDN6S3JnTzVkbnFz/PQ",
+      image1: "https://imgs.search.brave.com/YmEtN5ucVm6AYAlmlPDyRTl66JmeTxbuadl1XSjWsio/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzM0LzEzLzU4/LzM2MF9GXzM0MTM1/ODIyX1RNYVFlT1E5/YVZwRG1WM0lQWHZD/SDNmdWlsakE4VlpT/LmpwZw",
+      image2: "https://imgs.search.brave.com/vB9nK4eM7wX2jP8fR5uA3qG6hL1cT0yI9bN4oE5dU8V/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIz/NDU2Nzg5MC9waG90/by9vbmVwbHVzLTEx/LXByby5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9czRPZVBh/RjlQa0RqU0xOYkxX/Zkp3cXhsNFFMRko3/aDN6S3JnTzVkbnFz/PQ",
+      image3: "https://imgs.search.brave.com/7o26fcugiC8SETZ_ShwNjaI9atoOAcrFwHa_p8S3SQU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzMwLzg0Lzkw/LzM2MF9GXzMwODQ5/MDQ1X2RqbktqckNo/VW1udTdCZ0RKZXl6/TTNnRVR0ZFZoalFC/LmpwZw",
+      image4: "https://imgs.search.brave.com/N1hBI_HQLlQh0YqOlSi5rrZg23XVwb9U5GY_wD0NciU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMzc0/NzE0Mi9wZXhlbHMt/cGhvdG8tMzc0NzE0/Mi5qcGVnP2F1dG89/Y29tcHJlc3MmY3M9/dGlueXNyZ2ImZHBy/PTEmdz01MDA"
     },
     tags: {
       tag1: "Apple",
@@ -63,61 +63,61 @@ var data = [
   {
     title: "Freedom fighters",
     images: {
-      image1: "url",
-      image2: "url",
-      image3: "url",
-      image4: "url",
+      image1: "https://imgs.search.brave.com/y2OW85a7zQbwGt1FesNEp1WILusJH2WmcIkKh6tqGQk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/bWVkaWEudGVzdGJv/b2suY29tL2Jsb2cv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDcvZnJlZWRvbS1m/aWdodGVycy1vZi1p/bmRpYV8xNC04ZTI5/YTJmMy5wbmc",
+      image2: "https://imgs.search.brave.com/ibh2uxzvfP34-OYB604APN4SOmLnYZ6GNjjUrBzwXVE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIzLzUv/MzExODk2MjUzL01V/L05ZL0NWLzI2OTU0/NzM1L2ZyZWVkb20t/ZmlnaHRlcnMtcGhv/dG8tZnJhbWUtMTAw/MHgxMDAwLmpwZWc",
+      image3: "https://imgs.search.brave.com/WvpU6SyPmArXUpmqO_teiElM-aYGH-d1iIPiA7T1NCo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIzLzUv/MzExODgxODA3L09X/L1NOL1FXLzI2OTU0/NzM1L2ZyZWVkb20t/ZmlnaHRlcnMtcGhv/dG8tZnJhbWUtMTAw/MHgxMDAwLmpwZWc",
+      image4: "https://imgs.search.brave.com/IC_8kGY_bg8httuzS0QdO8-n-5BiofVaIloXxoDm0xc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdC5h/ZGRhMjQ3LmNvbS9o/dHRwczovL3d3dy5h/ZGRhMjQ3LmNvbS9q/b2JzL3dwLWNvbnRl/bnQvdXBsb2Fkcy9z/aXRlcy8yLzIwMjIv/MDgvMTIxNTM1NTUv/aW1hZ2VzLTcuanBl/Zw",
     },
     tags: {
-      tag1: "car-1",
-      tag2: "car-2",
-      tag3: "tag-3",
-      tag4: "tag-4"
+      tag1: "freedom-fighter-1",
+      tag2: "freedom-fighter-2",
+      tag3: "freedom-fighter-3",
+      tag4: "freedom-fighter-4"
     }
   },
   {
     title: "Indian Sports Man",
     images: {
-      image1: "url",
-      image2: "url",
-      image3: "url",
-      image4: "url",
+      image1: "https://imgs.search.brave.com/EJbaQl1tHzhlctjDhAQHwaFbEtJ_CuG3UEUhtyXwXVs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/b2x5bXBpY3MuY29t/L2ltYWdlcy9pbWFn/ZS9wcml2YXRlL3Rf/c18xNl85X2dfYXV0/by90X3Nfdzk2MC9m/X2F1dG8vcHJpbWFy/eS93d3h2MnFjcG11/M3dubGxxeHlncQ.jpeg",
+      image2: "https://imgs.search.brave.com/seFgboPBQa-cqMBBJPzHmuKG45Z_0k8_4m61r_CrER8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9lbi1t/ZWRpYS50aGViZXR0/ZXJpbmRpYS5jb20v/dXBsb2Fkcy8yMDIz/LzA0L1VudGl0bGVk/LWRlc2lnbi0yMDIz/LTA0LTExVDE5MjQw/NC43MjgtMTY4MTIy/MTI2NS5qcGc",
+      image3: "https://imgs.search.brave.com/LtUYNsQpoM7hwSW_Hf8Ju78hBJEMX4737kkUV8qDutU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/LzhjL0R1dGVlX0No/YW5kLmpwZw",
+      image4: "https://imgs.search.brave.com/iFKGqFJoq40zcA9GO_BsDcLxADFKNXg_wMvZP3zIX14/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW5kaWFuZXhw/cmVzcy5jb20vMjAx/OS8wOC9kZWVwYWst/cHVuaWEtMTIwMC5q/cGc",
     },
     tags: {
-      tag1: "car-1",
-      tag2: "car-2",
-      tag3: "tag-3",
-      tag4: "tag-4"
+      tag1: "indian-sports-1",
+      tag2: "indian-sports-2",
+      tag3: "indian-sports-3",
+      tag4: "indian-sports-4"
     }
   },
   {
     title: "Indian Cricketers",
     images: {
-      image1: "url",
-      image2: "url",
-      image3: "url",
-      image4: "url",
+      image1: "https://imgs.search.brave.com/DzEdb7HxSXTuCXdl8PhK_y9U_zi8XKVyaEIODztsT-o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudHBvaW50dGVj/aC5jb20vdG9wMTAt/dGVjaG5vbG9naWVz/L2ltYWdlcy90b3At/MTAtaW5kaWFuLWNy/aWNrZXRlcnMyLnBu/Zw",
+      image2: "https://imgs.search.brave.com/EBe57k7med6Ihxv4eRsMV1Xl2gIb4HizI3l1l28daRg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudHBvaW50dGVj/aC5jb20vdG9wMTAt/dGVjaG5vbG9naWVz/L2ltYWdlcy90b3At/MTAtaW5kaWFuLWNy/aWNrZXRlcnM4LnBu/Zw",
+      image3: "https://imgs.search.brave.com/DnN3CY_c8sIFXSV6GZUQe1xcWCRe0FwgYC4Z6InmQTI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudHBvaW50dGVj/aC5jb20vdG9wMTAt/dGVjaG5vbG9naWVz/L2ltYWdlcy90b3At/MTAtaW5kaWFuLWNy/aWNrZXRlcnM5LnBu/Zw",
+      image4: "https://imgs.search.brave.com/eQh7r0piy4IryNYFRibFeyCvBPrpF3ln8s_lxb5kkeM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvaW5k/aWFuLWNyaWNrZXQt/cGxheWVyLXl1dnJh/ai1zaW5naC00Zmcx/MzA0eXdlM3M3dHkz/LmpwZw",
     },
     tags: {
-      tag1: "car-1",
-      tag2: "car-2",
-      tag3: "tag-3",
-      tag4: "tag-4"
+      tag1: "indian-cricketers-1",
+      tag2: "indian-cricketers-2",
+      tag3: "indian-cricketers-3",
+      tag4: "indian-cricketers-4"
     }
   },
   {
     title: "Politicians",
     images: {
-      image1: "url",
-      image2: "url",
-      image3: "url",
-      image4: "url",
+      image1: "https://imgs.search.brave.com/eTuTCevXn0EmDkN63pb5k7NERYvGFJKXw9HKJyaD41A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE1/OTU0NTk4L3Bob3Rv/L3lvdW5nLWJ1c25l/c3NtYW4uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXc3cUtq/X1ltTWQ0c3UxcXI4/TEFxdWM1ZlRmWmU4/SUdhRDR2YUhub0RU/OTg9",
+      image2: "https://imgs.search.brave.com/_NX8dYIPTtz0KSZJtzezVpq86z8_lHAg5HCUsikObn4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcy/MTQyNzM2L3Bob3Rv/L3BvbGl0aWNhbC1j/b25mbGljdC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9cmVq/ZGh2cnRVOXFNQlN1/ZDBIWmtGaUNBMFpH/TXFuRnlZS0QtemE5/MllGMD0",
+      image3: "https://imgs.search.brave.com/4GRUkq3axXG_NyL-rNuDxUFoOlFU2IVzGNVU_lproj8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzA4LzE4Lzk0/LzM2MF9GXzUwODE4/OTQwMF9zNVZPUmFO/T3BFVlVSQ29qd2g3/YzBhcHJRWWhLTXpD/cC5qcGc",
+      image4: "https://imgs.search.brave.com/uk7snrSrjQLP-FGpbJD8MF6ljpNTdUWK38GgqWQfCRY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9zaWxob3Vl/dHRlLXVrLXBvbGl0/aWNpYW4tcG9pbnRp/bmctYWlyLTI2MG53/LTI0ODM0NzQ5NzMu/anBn",
     },
     tags: {
-      tag1: "car-1",
-      tag2: "car-2",
-      tag3: "tag-3",
-      tag4: "tag-4"
+      tag1: "politicians-1",
+      tag2: "politicians-2",
+      tag3: "politicians-3",
+      tag4: "politicians-4"
     }
   },
   {
